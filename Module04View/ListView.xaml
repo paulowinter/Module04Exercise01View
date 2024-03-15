@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Module04View.ListView"
+             BackgroundColor="#D7E9F7">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Padding="20">
+
+            <Image Source="Menu.png" Margin="0,0,0,50"/>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Text="Textcell" Clicked="Textcell_Clicked"
+                        Grid.Row="0" Grid.Column="0"
+                        BackgroundColor="White"
+                        HeightRequest="200"
+                        CornerRadius="15"
+                        Margin="5"
+                        TextColor="#FF66C4"
+                        FontAttributes="Bold"/>
+
+                <Button Text="Imagecell" Clicked="Imagecell_Clicked"
+                        Grid.Row="0" Grid.Column="1"
+                        BackgroundColor="White"
+                        CornerRadius="15"
+                        Margin="5"
+                        TextColor="#FF66C4"
+                        FontAttributes="Bold"/>
+                
+                <Button Text="Switchcell" Clicked="Switchcell_Clicked"
+                        Grid.Row="1" Grid.Column="0"
+                        BackgroundColor="White"
+                        CornerRadius="15"
+                        Margin="5"
+                        TextColor="#FF66C4"
+                        FontAttributes="Bold"/>
+                
+                <Button Text="Entrycell" Clicked="Entrycell_Clicked"
+                        Grid.Row="1" Grid.Column="1"
+                        BackgroundColor="White"
+                        CornerRadius="15"
+                        Margin="5"
+                        TextColor="#FF66C4"
+                        FontAttributes="Bold"/>
+            </Grid>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

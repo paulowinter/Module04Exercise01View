@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Module04View.SwitchCell"
+             BackgroundColor="#D7E9F7">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="Fav.png" Margin="20,20,20,50"/>
+            <ListView x:Name="SanrioView" ItemsSource="{Binding Sanrios}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <SwitchCell Text="{Binding DisplayName}"
+                                    OnColor="#FF66C4"
+                                    OnChanged="displayMsg"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

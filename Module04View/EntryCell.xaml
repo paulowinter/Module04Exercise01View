@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Module04View.EntryCell"
+             BackgroundColor="#D7E9F7">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="Know.png" Margin="20,60,20,30"/>
+            <TableView Intent="Form">
+                <TableRoot>
+                    <TableSection>
+                        <EntryCell Label="Username:"
+                           Placeholder="Enter your Username"
+                           x:Name="fname"
+                                   LabelColor="Gray"/>
+                        <EntryCell
+                           Placeholder="Who is your favorite Sanrio character? ⋆˚✿˖°"
+                           x:Name="fav" />
+
+                        <EntryCell
+                           Placeholder="What are your thoughts?"
+                           x:Name="thoughts" 
+                                    LabelColor="Gray"/>
+
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+            <Button Text="Submit" Clicked="OnSubmitEntry" 
+                    TextColor="#4AA4D6"
+                    BackgroundColor="White"
+                    CornerRadius="10"
+                    FontSize="Medium"
+                    FontAttributes="Bold"
+                    Margin="0,100,0,0"
+                    BorderColor="#FF66C4"
+                    BorderWidth="1"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

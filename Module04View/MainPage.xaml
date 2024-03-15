@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Module04View.MainPage" Title="Paulo C. Bondoc"
+             BackgroundImageSource="https://e0.pxfuel.com/wallpapers/866/955/desktop-wallpaper-cinnamoroll-blue-stars-cute-sanrio.jpg">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Image Source="Name3.png" Margin="0,0,0,50"/>
+
+        <StackLayout Padding="30">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+                        Text="List View"
+                        TextColor="#FF66C4"
+                        BackgroundColor="white"
+                        Clicked="ListView_Clicked" 
+                        CornerRadius="20"
+                        FontAttributes="Bold"
+                        FontSize="Medium"
+                        BorderColor="#4AA4D6"
+                        BorderWidth="1"/>
+
+
+                <Button Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+                        Text="Collection View"
+                        TextColor="#FF66C4"
+                        BackgroundColor="White"
+                        Clicked="CollectionView_Clicked" 
+                        CornerRadius="20"
+                        FontAttributes="Bold"
+                        FontSize="Medium"
+                        BorderColor="#4AA4D6"
+                        BorderWidth="1"/>
+
+                <Button Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="0"
+                        Text="More info"
+                        TextColor="#FF66C4"
+                        BackgroundColor="White"
+                        Clicked="DisplayAlert_Clicked" 
+                        CornerRadius="20"
+                        FontAttributes="Bold"
+                        FontSize="Medium"
+                        BorderColor="#4AA4D6"
+                        BorderWidth="1"/>
+
+            </Grid>
+
+        </StackLayout>
+    
+    </StackLayout>
+
+</ContentPage>
