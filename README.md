@@ -38,7 +38,7 @@
 [SwitchCell.xaml.cs](Module04View/SwitchCell.xaml.cs)
 
 ![SwitchCell](Screenshots/SwitchCell.png)
-![SwitchCell](Screenshots/SwitCell-On.png)
+![SwitchCell](Screenshots/SwitchCell-On.png)
 ![SwitchCell](Screenshots/SwitchCell-Off.png)
 
 ## EntryCell
