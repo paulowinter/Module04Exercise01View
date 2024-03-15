@@ -4,5 +4,4 @@
 [Mainpage.xaml](Modlde04/MainPage.xaml)
 [Mainpage.xaml.cs](Modlde04/MainPage.xaml.cs)
 
-[Mainpage](Screenshots/Mainpage.png)
-[Mainpage - Alert](Screenshots/Mainpage-Alert.png)
+![Main Page](Screenshots/Mainpage.png)
