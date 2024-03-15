@@ -1,11 +1,22 @@
 # PDC03 Module 04 - Exercise01
 
 ## MainPage
-[Mainpage.xaml](Modlde04/MainPage.xaml)
-[Mainpage.xaml.cs](Modlde04/MainPage.xaml.cs)
+[Mainpage.xaml](Module04View/MainPage.xaml)
+[Mainpage.xaml.cs](Module04View/MainPage.xaml.cs)
 
 ![Main Page](Screenshots/Mainpage.png)
 ![Main Page](Screenshots/Mainpage-Alert.png)
 
 ## ListView
-[ListView.xaml.cs](Modlde04/ListView.xaml.cs)
+[ListView.xaml](Module04View/ListView.xaml)
+[ListView.xaml.cs](Module04View/ListView.xaml.cs)
+
+![ListView](Screenshots/ListView.png)
+
+## SwitchCell
+[SwitchCell.xaml](Module04View/SwitchCell.xaml)
+[SwitchCell.xaml.cs](Module04View/SwitchCell.xaml.cs)
+
+![SwitchCell](Screenshots/SwitchCell.png)
+![SwitchCell](Screenshots/SwitchCell-On.png)
+![SwitchCell](Screenshots/SwitchCell-Off.png)
