@@ -18,5 +18,5 @@
 [SwitchCell.xaml.cs](Module04View/SwitchCell.xaml.cs)
 
 ![SwitchCell](Screenshots/SwitchCell.png)
-![SwitchCell](Screenshots/SwitchCell-On.png)
+![SwitchCell](Screenshots/SwithCell-On.png)
 ![SwitchCell](Screenshots/SwitchCell-Off.png)
