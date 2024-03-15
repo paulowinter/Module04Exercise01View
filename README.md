@@ -49,4 +49,4 @@
 ![EntryCell](Screenshots/EntryCell-Submit.png)
 
 ## CS FILE
-[Sanrio.cs](Module04View/Sanrio)
+[Sanrio.cs](Module04View/Sanrio.cs)
